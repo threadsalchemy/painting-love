@@ -210,7 +210,7 @@ div.img-nozoom-container { display: none; }
 div.img-zoom-container, div.img-zoom-result { display:none; }
 
 /* show nozoom container on mobile */
-div.img-nozoom-container { display: visible; }
+div.img-nozoom-container { display: block; }
 
 /* make share box and etsy buy button responsive (individual artwork pages) */
 div#pl_sharebox, div#pl_buybox {
