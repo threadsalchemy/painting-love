@@ -12,8 +12,6 @@ function imageZoom(imgID, resultID) {
   cy = result.offsetHeight / lens.offsetHeight;
   /*set background properties for the result DIV:*/
   result.style.backgroundImage = "url('" + img.src.slice(0,-4) + '_large.jpg' +  "')";
-  /* result.style.backgroundImage = "url('" + 'images/artworks/Bianca-Raffaela-fashion-illustration-40_large.jpg' + "')"; */
-  /* result.style.backgroundImage = "url('" + img.src + "')"; */
   result.style.backgroundSize = (img.width * cx) + "px " + (img.height * cy) + "px";
   /*execute a function when someone moves the cursor over the image, or the lens:*/
   lens.addEventListener("mousemove", moveLens);
