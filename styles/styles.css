@@ -254,6 +254,8 @@ a#prevlink,a#nextlink {
   /*set the size of the result div:*/
   width: 400px;
   height: 400px;
+/* add top margin so h1 and h2 in same cell are visible on individual artwork pages */
+  margin-top: 120px; 
   margin-right: auto;
   margin-bottom: 40px;
   margin-left: auto;
