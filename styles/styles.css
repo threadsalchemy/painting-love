@@ -131,7 +131,7 @@ a#prevlink,a#nextlink {
 	font-size: 64px;
 	color: #000;
 }
-
+/* SHAREBOX STARTS */
 div#pl_sharebox { 
 	width: 400px;
 	background-color: #f3f3f3;
@@ -167,6 +167,10 @@ a#share_pinterest:hover {
 	color: #fff;
 }
 
+/* END OF SHAREBOX */
+
+/* ETSY BUTTON STARTS */
+
 div#pl_buybox {
 	text-align: center;
 	width: 400px;
@@ -194,11 +198,8 @@ div#pl_buybox a:active {
 	color: #f1641e;
 }
 
-/* Hide nozoom container on desktop, to not duplicate with zoom */
+/* ETSY BUTTON ENDS */
 
-@media screen and (min-width: 811px){
-div.img-nozoom-container { display: none; }
-}
 
 /* END OF  MAIN STYLES */
 
@@ -206,11 +207,8 @@ div.img-nozoom-container { display: none; }
 
 @media screen and (max-width: 810px){
 
-/* hide zoom widget on mobile */
-div.img-zoom-container, div.img-zoom-result { display:none; }
-
-/* show nozoom container on mobile */
-div.img-nozoom-container { display: block; }
+/* hide zoom lens and result box on mobile */
+div.img-zoom-lens, div.img-zoom-result { display:none; }
 
 /* make share box and etsy buy button responsive (individual artwork pages) */
 div#pl_sharebox, div#pl_buybox {
