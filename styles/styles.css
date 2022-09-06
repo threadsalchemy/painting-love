@@ -157,6 +157,27 @@ a#share_tweet:hover {
 	color: #fff;
 }
 
+
+a#share_tweet::before {
+  content: url('../images/twitter.svg');
+}
+
+a#share_facebook::before {
+  content: url('../images/facebook.svg');
+}
+
+a#share_pinterest::before {
+  content: url('../images/pinterest.svg');
+}
+
+a#share_tweet::before, a#share_facebook::before, a#share_pinterest::before {
+  display: block;
+  position: absolute;
+  width: 32px; /* w and h only work on twitter.svg */
+  height: 32px;
+  margin-top: -5px;
+}
+
 a#share_facebook:hover {
 	background-color: #4267b2;
 	color: #fff;
