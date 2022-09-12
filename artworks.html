@@ -29,6 +29,10 @@
 
 </head>
 <body>
+<!-- back to top button -->
+<button onclick="topFunction()" id="backtotopbutton" title="Go to top">&#9650;</button>	
+<!-- back to top button ends -->
+
 	<header class="header">
 		<div class="hr1c1234">
 			<a href="https://www.painting.love">Painting.Love</a>
@@ -42,10 +46,12 @@
 	<main class="main">
 		<div class="mr1c1234">
 			<h1>Artworks</h1>
-			<h2>Paintings and Illustrations by Bianca Raffaela</h2>
-			<p>Selected artworks, featuring title, medium and year.<br>
-			Dimensions show Height x Width.<br> 
+			<h2>Paintings and Illustrations</h2>
+			<div class="artwork-description">
+			<p>Selected artworks, featuring title, medium and year.
+			Dimensions show Height x Width. 
 			Please contact the artist if you wish to purchase, distribute or remix any of the below works.</p>
+			</div>
 		</div>
 		<!-- paintings row starts -->
 		<div class="mr2c2">
@@ -480,5 +486,24 @@
 			<small>&copy; Copyright 2005-2022 Bianca Raffaela Di Pascale. All rights reserved.</small>
 		</div>
 	</footer>
+
+	<!-- back to top button script -->
+	<script>
+	let mybutton = document.getElementById("backtotopbutton");
+	window.onscroll = function() {scrollFunction()};
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    mybutton.style.display = "block";
+	  } else {
+	    mybutton.style.display = "none";
+	  }
+	}
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+	</script>
+	<!-- back to top button script ends -->
+
 </body>
 </html>
