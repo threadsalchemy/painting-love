@@ -233,6 +233,8 @@ div.artwork-description {
 
 div#signature {
 	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* END OF  MAIN STYLES */
