@@ -87,8 +87,7 @@ header {
 
 #footer_email {
 	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 small {
@@ -113,8 +112,8 @@ figure img {
 }
 
 .socialicons img {
-	width: 64px;
-	height: 64px;
+	width: 32px;
+	height: 32px;
 	margin: 40px 10px 10px 10px; 
 	border: 1px solid white;
 	border-radius:50px;
@@ -225,7 +224,6 @@ div#pl_buybox a:active {
 /* ETSY BUTTON ENDS */
 
 /* artwork description on individual artwork pages */
-
 div.artwork-description {
   width: 80%;
   margin-left: auto;
@@ -233,6 +231,9 @@ div.artwork-description {
   padding: 40px 0px 40px 0px;
 }
 
+div#signature {
+	width: 200px;
+}
 
 /* END OF  MAIN STYLES */
 
