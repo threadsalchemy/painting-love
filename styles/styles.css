@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 main p {
-	padding: 0px 40px 0px 40px;
 	margin-bottom: 20px;
 }
 
@@ -225,15 +224,21 @@ div#pl_buybox a:active {
 
 /* ETSY BUTTON ENDS */
 
+/* artwork description on individual artwork pages */
+
+div.artwork-description {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0px 40px 0px;
+}
+
 
 /* END OF  MAIN STYLES */
 
 /* MOBILES AND TABLETS START */
 
 @media screen and (max-width: 810px){
-
-/* hide zoom lens and result box on mobile */
-div.img-zoom-lens, div.img-zoom-result { display:none; }
 
 /* make share box and etsy buy button responsive (individual artwork pages) */
 div#pl_sharebox, div#pl_buybox {
@@ -257,37 +262,7 @@ a#prevlink,a#nextlink {
 
 /* END OF MOBILES AND TABLETS */
 
-
-/* IMAGE ZOOM SCRIPT STYLES START */
-
-.img-zoom-container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.img-zoom-lens {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  /*set the size of the lens:*/
-  width: 100px;
-  height: 100px;
-}
-
-.img-zoom-result {
-  border: 1px solid #d4d4d4;
-  /*set the size of the result div:*/
-  width: 400px;
-  height: 400px;
-/* add top margin so h1 and h2 in same cell are visible on individual artwork pages */
-  margin-top: 120px; 
-  margin-right: auto;
-  margin-bottom: 40px;
-  margin-left: auto;
-}
-
-/* END OF ZOOM SCRIPT STYLES */
-
+/* DESKTOP STYLES START */
 /* GRIDSTYLES START */
 
 @supports(display: grid){
@@ -435,9 +410,9 @@ a#prevlink,a#nextlink {
 .fr3c3 { grid-area: 3 / 3 / 3 / 4; } /* cover footer row 3 cell 3 */
 .fr3c4 { grid-area: 3 / 4 / 3 / 5; } /* cover footer row 3 cell 4 */
 
-}
-
 /* END OF GRIDSTYLES */
+
+
 
 /* GRIDSTYLE TWEAKS START */
 
@@ -473,4 +448,5 @@ a#prevlink,a#nextlink {
 						
 /* END OF GRIDSTYLE TWEAKS */
 
-
+}
+/* END OF DESKTOP STYLES */
