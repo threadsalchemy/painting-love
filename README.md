@@ -24,4 +24,6 @@ To distribute or make derivatives of the artworks you must obtain the permission
 
 To share direct links to the artworks on site no explicit permission is required.
 
+You may NOT use artworks on this site for training AI (Artificial Intelligence) models.
+
 Contact the author: bianca@painting.love
